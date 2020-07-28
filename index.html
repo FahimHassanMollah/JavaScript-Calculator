@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="" rel="shortcut icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/2af1052cd6.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="calculator">
+
+    <input type="text" class="calculator-screen" id="screen" value="0" disabled />
+
+    <div class="calculator-keys">
+
+        <button type="button" class="digit operator" id="plus-button" value="+">+</button>
+        <button type="button" class="digit operator" id="minus-button" value="-">-</button>
+        <button type="button" class="digit operator" id="gun-button" value="*">*</button>
+        <button type="button" class="digit operator" id="vag-button" value="/">/</button>
+
+        <button type="button" class="digit" value="7">7</button>
+        <button type="button" class="digit" value="8">8</button>
+        <button type="button" class="digit" value="9">9</button>
+
+
+        <button type="button" class="digit" value="4">4</button>
+        <button type="button" class="digit" value="5">5</button>
+        <button type="button" class="digit" value="6">6</button>
+
+
+        <button type="button" class="digit" value="1">1</button>
+        <button type="button" class="digit" value="2">2</button>
+        <button type="button" class="digit" value="3">3</button>
+
+
+        <button type="button" class="digit" value="0">0</button>
+        <button type="button" class="digit decimal digit" id="dot" value=".">.</button>
+        <button type="button" class="digit all-clear" value="all-clear">AC</button>
+
+        <button type="button" class="digit equal-sign" id="equal" value="=">=</button>
+
+    </div>
+</div>
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="calculator.js"></script>
+</body>
+</html>
